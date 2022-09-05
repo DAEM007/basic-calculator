@@ -15,8 +15,8 @@ body {
     flex: 0 0 25%;
     padding: 0.25rem;
     border: 1px solid rgb(198, 188, 188);
-    border-radius: 8px;
-    box-shadow: 2px 5px rgb(223, 222, 222);
+    border-radius: 15px;
+    box-shadow: 3px 7px rgb(223, 222, 222);
 }
 
 .calculator {
@@ -67,6 +67,14 @@ button {
 
 .btn-gray:hover {
     background: #fff;
+}
+
+.btn-red {
+    background: rgb(243, 136, 136);
+}
+
+.btn-green {
+    background: rgb(124, 236, 124);
 }
 
 
