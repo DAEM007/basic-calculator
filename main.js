@@ -16,6 +16,18 @@ for(let i = 0; i < btns.length; i++){
     })
 }
 
+// for the power-2 button...we would want to get the square of a number
+powerTwo.addEventListener('click', () => {
+    let int = parseInt(screen.value);
+    screen.value = Math.pow(int, 2);
+})
+
+// for the power-3 button...we would want to get the cube of a number
+powerThree.addEventListener('click', () => {
+    let int = parseInt(screen.value);
+    screen.value = Math.pow(int, 3);
+})
+
 // for the equals button...we would want to do an evaluation of the figures here
 btnEquals.addEventListener('click', () => {
     let value = eval(screen.value);
