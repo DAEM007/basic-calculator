@@ -33,7 +33,7 @@ btnEquals.addEventListener('click', () => {
     let value = eval(screen.value);
     // console.log(screen.value = `${value}`);
     if(screen.value === ''){
-        alert('Invalid input')
+        alert('Invalid input: Input a valid number');
     }
     else{
         screen.value = value;
